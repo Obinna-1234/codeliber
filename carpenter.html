@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>charpenter website</title>
+</head>
+<body>
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Read More Example</title>
+<style>
+  #hidden-paragraphs {
+    display: none;
+  }
+</style>
+</head>
+<body>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut nisl vel risus consequat vehicula. Vivamus id consectetur ligula. Sed faucibus neque eu lorem convallis, in laoreet turpis consectetur.</p>
+  
+  <p>Proin sed augue quis metus tincidunt rhoncus vel a dolor. Vestibulum vel elit odio. Sed eget urna nec velit scelerisque lacinia.</p>
+  
+  <div id="hidden-paragraph">
+    <p>Integer non justo quis enim auctor iaculis eu non sapien. Vivamus suscipit lectus eu odio suscipit vehicula. Maecenas vel est vel odio pellentesque dignissim non in nunc.</p>
+    
+    <p>Nam in nunc non mauris varius ultrices. Curabitur euismod purus eget felis convallis, ut tincidunt nisl elementum. Etiam bibendum consectetur augue, at venenatis arcu facilisis eu. In hac habitasse platea dictumst.</p>
+    
+    <p>Suspendisse potenti. Fusce id arcu eu mi cursus tristique. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis sollicitudin euismod lectus, vel hendrerit libero varius non.</p>
+  </div>
+
+  <button onclick="hide()">Read Less</button>
+  <button onclick="show()">Read More</button>
+  <script>
+     function hide() {
+			document.getElementById("hidden-paragraph").hidden = true;
+		}
+ 
+	 function show() {
+	 	document.getElementById("hidden-paragraph").hidden = false;
+	 }
+  //using the onclick with the function of hide() and show() you
+  //hide and also show your elements.
+  </script>
+</body>
+</html>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice</title>
+</head>
+<body>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut nisl vel risus consequat vehicula. Vivamus id consectetur ligula. Sed faucibus neque eu lorem convallis, in laoreet turpis consectetur.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut nisl vel risus consequat vehicula. Vivamus id consectetur ligula. Sed faucibus neque eu lorem convallis, in laoreet turpis consectetur.</p>
+	<div id="hidden-paragraph">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut nisl vel risus consequat vehicula. Vivamus id consectetur ligula. Sed faucibus neque eu lorem convallis, in laoreet turpis consectetur.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut nisl vel risus consequat vehicula. Vivamus id consectetur ligula. Sed faucibus neque eu lorem convallis, in laoreet turpis consectetur.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut nisl vel risus consequat vehicula. Vivamus id consectetur ligula. Sed faucibus neque eu lorem convallis, in laoreet turpis consectetur.</p>
+	</div>
+		<button id="read-more">Read More</button>
+		<script>
+			const hiddenParagraph = document.getElementById("hidden-paragraph");
+			const readMore = document.getElementById("read-more"); //Corrections inserted
+
+			readMore.addEventListener("click",()=>{ //corrections inserted
+				hiddenParagraph.style.display ="block";
+				readMoreButton.style.display ="none";
+			});
+		</script>
+</body>
+</html>
